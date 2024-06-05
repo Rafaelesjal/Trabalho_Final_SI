@@ -5,7 +5,7 @@ CREATE TABLE modulos_capitalizados(
     id_modulo INT UNSIGNED NOT NULL,
     id_aluno INT UNSIGNED NOT NULL,
     data_capitalizacao DATE NOT NULL,
-    nota  INT  NOT NULL
+    nota  INT NOT NULL
 );
 
 ALTER TABLE modulos_capitalizados

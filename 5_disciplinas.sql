@@ -3,7 +3,7 @@ USE cursodisciplinas;
 CREATE TABLE disciplinas(
     id INT UNSIGNED NOT NULL,
     id_curso INT UNSIGNED NOT NULL,
-    id_modulo INT UNSIGNED NOT NULL
+    nome VARCHAR(255) NOT NULL
 );
 
 ALTER TABLE disciplinas
